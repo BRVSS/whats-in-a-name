@@ -17,6 +17,11 @@ button {
     justify-self: center;
 }
 
+body{
+    display: grid;
+    align-content: center;
+}
+
 .Juliet{
     font-size: 350%;
     text-align: center;
@@ -24,10 +29,11 @@ button {
     margin-bottom: .75em;
 } 
 
-body{
-    display: grid;
-    align-content: center;
+div{
+  display: grid;
+  align-content: center;
 }
+
 
 /* .testing{
 font-family: serif;
