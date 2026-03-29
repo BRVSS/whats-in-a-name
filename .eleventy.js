@@ -16,9 +16,9 @@ module.exports = function(eleventyConfig) {
     </div>`;    
   return name[0];
   });
-  eleventyConfig.addShortcode("test", function(){
-    window.alert("This is a test")
-  });
+  // eleventyConfig.addShortcode("test", function(){
+  //   alert("This is a test")
+  // });
 };
 
 
